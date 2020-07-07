@@ -68,9 +68,12 @@ body {
 	max-width: 100%;
 }
 
-.skillsSection,
+.skillsSection {
+	background-color: #c5bdc0e8;
+	color: #fff;
+}
 .contactSection {
-	background-color: #f9b0c9b8;
+	background-color: #612f41e8;
 	color: #fff;
 }
 
@@ -98,10 +101,6 @@ body {
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
-}
-
-.chart .percent:after {
-	content: '%';
 }
 
 
@@ -137,11 +136,12 @@ body {
 }
 
 
+
 .squareContent h2 {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
-	color: #f9b0c9b8;
+	color: #3e2e33e8;
 }
 
 .squareContent h3 {
@@ -172,7 +172,7 @@ body {
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #f9b0c9b8;
+	color: #3e2e33e8;
 	background-color: #fff;
 }
 
@@ -189,8 +189,8 @@ body {
 }
 
 .filter .current {
-	background-color: #f9b0c9b8;
-	border-color: #f9b0c9b8;
+	background-color: #3e2e33e8;
+	border-color: #3e2e33e8;
 	color: #fff;
 }
 
@@ -250,7 +250,7 @@ body {
 .items a {
 	width: 40px;
     height: 40px;
-    background-color: #f9b0c9b8;
+    background-color: #3e2e33e8;
     position: relative;
     display: inline-block;
 
@@ -314,7 +314,7 @@ body {
 }
 
 .copyrightSection {
-	background-color: #000;
+	background-color: #d26d8d69;;
 	color: #fff;
 	padding: 30px 5px;
 }
@@ -324,7 +324,7 @@ body {
 }
 
 #navigation {
-	background-color: #f9b0c9b8;
+	background-color: #d26d8d69;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -348,7 +348,7 @@ body {
 	background-size: 100%;
 }
 
-.fixedNav #navigation {
+ #navigation {
 	position: fixed;
 	top: 0;
 }
