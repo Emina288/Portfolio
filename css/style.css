@@ -44,7 +44,6 @@ body {
     text-align: center;
     margin-top: -125px;
 }
-
 .titleMessage .heading p {
 	color: #fff;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
@@ -78,30 +77,9 @@ body {
 }
 
 .skill {
-	text-align: center;
-	margin-left: 10px;
+	display: inline-block;
 }
 
-.chart {
-	position: relative;
-    width: 152px;
-    height: 152px;
-    display: inline-block;
-    text-align: center;
-}
-
-.chart canvas {
-	position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.chart .percent {
-	color: #000;
-    line-height: 152px;
-    display: inline-block;
-    font-size: 35px;
-}
 
 
 .squareItem {
@@ -369,6 +347,18 @@ body {
 	background: url(../img/loader.gif) center center no-repeat;
 }
 
+.chart img {
+	margin:20px;
+}
+
+.skill h4 {
+	color: black;
+	margin: 20px;
+}
+
+.skil {
+	color: black;
+}
 
 
 
