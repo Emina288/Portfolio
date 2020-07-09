@@ -186,6 +186,8 @@ body {
 .items li {
 	display: inline-block;
 	padding: 5px;
+	left: 5%;
+	margin: 20px;
 }
 
 .itemsContainer {
